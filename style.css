@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    background-image: url("../img/galaxy_bg.webp");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+
+.title{
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    font-size: 30px;
+    margin-right: 20px;
+    span{
+        color: rgb(124, 251, 255);
+    }
+}
+
+.main-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+form{
+   display: flex;
+    flex-direction: column;
+    gap: 20px;
+    input, textarea{
+        background-color: rgba(0, 0, 0, 0);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+        color: white;
+        padding: 20px;
+    }
+}
+
+.Task-creator-title{
+    text-align: right;
+    text-transform: uppercase;
+    span{
+        color: rgb(124, 251, 255);
+    }
+}
+
+.button{
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    transition: .3s all linear;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.task-done-texte{
+    color: rgb(179, 221, 179);
+}
+summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.TaskDetails{
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 10px;
+    border-radius: 8px;
+}
+    
+
+.task-done-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.task-done{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.real-task-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
