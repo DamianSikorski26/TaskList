@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url("../img/galaxy_bg.webp");
+    background-image: url("./img/galaxy_bg.webp");
     background-repeat: no-repeat;
     color: white;
     background-size: cover;
